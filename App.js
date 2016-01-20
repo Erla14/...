@@ -103,7 +103,7 @@ $(function() {
 	$('#clearbutton').click(function(){app.clear()});
 	$('#color').change(function(){app.setColor($(this).val())});
 });
-/*$(document).ready(function() {
+$(document).ready(function() {
 	app = new App('#canvas');
 	$('#circlebutton').click(function(){app.shapeFactory = function(){
 		return new Circle();
@@ -118,4 +118,4 @@ $(document).ready(function() {
 	};});
 	$('#clearbutton').click(function(){app.clear()});
 	$('#color').change(function(){app.setColor($(this).val())});
-	});*/
+	});
